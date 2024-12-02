@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-s3':
-        specifier: ^3.614.0
+        specifier: 3.703.0
         version: 3.703.0
       '@aws-sdk/lib-storage':
-        specifier: ^3.614.0
+        specifier: 3.703.0
         version: 3.703.0(@aws-sdk/client-s3@3.703.0)
       '@payloadcms/plugin-cloud-storage':
-        specifier: ^3.2.2
+        specifier: 3.2.2
         version: 3.2.2(@aws-sdk/client-s3@3.703.0)(@aws-sdk/lib-storage@3.703.0(@aws-sdk/client-s3@3.703.0))(payload@3.2.2(graphql@16.9.0)(monaco-editor@0.52.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
     devDependencies:
       payload:
