@@ -9,10 +9,14 @@ import type {Config, Plugin, UploadCollectionSlug} from 'payload';
 import * as AWS from '@aws-sdk/client-s3';
 import {cloudStoragePlugin} from '@payloadcms/plugin-cloud-storage';
 
-import {getGenerateURL} from './generateURL.js';
-import {getHandleDelete} from './handleDelete.js';
-import {getHandleUpload} from './handleUpload.js';
-import {getHandler} from './staticHandler.js';
+// @ts-ignore fix letter *next.js problem*
+import {getGenerateURL} from './generateURL';
+// @ts-ignore fix letter *next.js problem*
+import {getHandleDelete} from './handleDelete';
+// @ts-ignore fix letter *next.js problem*
+import {getHandleUpload} from './handleUpload';
+// @ts-ignore fix letter *next.js problem*
+import {getHandler} from './staticHandler';
 
 export type S3StorageOptions = {
   /**
