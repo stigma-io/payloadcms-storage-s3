@@ -30,7 +30,7 @@ export type S3StorageOptions = {
    * Must follow [AWS S3 bucket naming conventions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html).
    */
 
-  bucket: string
+  bucket?: string
 
   /**
    * Collection options to apply the S3 adapter to.
