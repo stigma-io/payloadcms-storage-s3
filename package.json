@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@swc/cli": "^0.1.63",
+    "eslint": "^9.16.0",
     "payload": "^3.2.2",
     "typescript": "^5.7.2"
   },

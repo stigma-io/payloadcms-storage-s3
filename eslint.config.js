@@ -6,6 +6,9 @@
 export const index = [
   // ...rootEslintConfig,
   {
+    ignores: ["dist/*"]
+  },
+  {
     languageOptions: {
       parserOptions: {
         // ...rootParserOptions,
