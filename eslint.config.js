@@ -1,14 +1,14 @@
-import { rootEslintConfig, rootParserOptions } from '../../eslint.config.js'
+// import { rootEslintConfig, rootParserOptions } from '../../eslint.config.js'
 
 /** @typedef {import('eslint').Linter.Config} Config */
 
 /** @type {Config[]} */
 export const index = [
-  ...rootEslintConfig,
+  // ...rootEslintConfig,
   {
     languageOptions: {
       parserOptions: {
-        ...rootParserOptions,
+        // ...rootParserOptions,
         tsconfigRootDir: import.meta.dirname,
       },
     },

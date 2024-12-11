@@ -23,11 +23,7 @@
   "skipLibCheck": true,
   "sourceMap": true,
   "strict": false,
-  "types": [
-   "jest",
-   "node",
-   "@types/jest"
-  ],
+  "types": [],
   "incremental": true,
   "isolatedModules": true,
   "plugins": [
